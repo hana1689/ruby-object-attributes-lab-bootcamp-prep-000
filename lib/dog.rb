@@ -1,6 +1,7 @@
 class Dog
-  def initiate(name)
+  def initiate(name, breed)
     @name = name
+    @breed = breed
   end
   
   def name
