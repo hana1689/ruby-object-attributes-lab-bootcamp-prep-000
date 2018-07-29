@@ -1,5 +1,6 @@
 class Person
-  def initiate(job)
+  def initiate(name, job)
+    @name = name
     @job = job
   end
   def job
